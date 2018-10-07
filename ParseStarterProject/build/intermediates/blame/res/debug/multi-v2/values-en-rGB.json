@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Local Disk E_9282018222\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rGB\\values-en-rGB.xml",
+            "outputFile": "I:\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rGB\\values-en-rGB.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Krzysztof\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-cast-12.0.1.aar\\8fbd3d7795a1b92fe5f501ef642ae52e\\res\\values-en-rGB\\values.xml",

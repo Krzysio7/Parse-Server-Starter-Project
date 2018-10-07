@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Local Disk E_9282018222\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-bn\\values-bn.xml",
+            "outputFile": "I:\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-bn\\values-bn.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Krzysztof\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\b8be99dbd2f4295b73c15aaf1a4fe329\\res\\values-bn\\values-bn.xml",

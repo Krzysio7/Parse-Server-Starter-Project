@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Local Disk E_9282018222\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
+            "outputFile": "I:\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
             "map": [
                 {
-                    "source": "D:\\Local Disk E_9282018222\\Parse-Server-Starter-Project\\ParseStarterProject\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "source": "I:\\Parse-Server-Starter-Project\\ParseStarterProject\\src\\main\\res\\values-w820dp\\dimens.xml",
                     "from": {
                         "startLines": "12",
                         "startColumns": "4",

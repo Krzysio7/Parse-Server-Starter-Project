@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Local Disk E_9282018222\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fr\\values-fr.xml",
+            "outputFile": "I:\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fr\\values-fr.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Krzysztof\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-26.1.0.aar\\20bab5004b2c268fbd6108457e546bc1\\res\\values-fr\\values-fr.xml",

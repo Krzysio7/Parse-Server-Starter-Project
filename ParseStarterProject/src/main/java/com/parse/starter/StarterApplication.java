@@ -32,13 +32,13 @@ public class StarterApplication extends Application {
     Parse.initialize(new Parse.Configuration.Builder(getApplicationContext())
             .applicationId("2e57939991771af2d156bab554772c218c05ab1a")
             .clientKey("0bddde042a3026939a99cd4a7aaafdd5439831a8")
-            .server("http://18.217.139.25:80/parse/")
+            .server("http://18.191.133.73/parse/")
             .build()
     );
 
 
 
-    ParseUser.enableAutomaticUser();
+    //ParseUser.enableAutomaticUser();
 
     ParseACL defaultACL = new ParseACL();
     defaultACL.setPublicReadAccess(true);

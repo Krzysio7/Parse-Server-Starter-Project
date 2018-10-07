@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Local Disk E_9282018222\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-et\\values-et.xml",
+            "outputFile": "I:\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-et\\values-et.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Krzysztof\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-gcm-12.0.1.aar\\388df63d544f81fafb99c013f65e890b\\res\\values-et\\values.xml",

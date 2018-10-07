@@ -15,6 +15,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Switch;
 
+import com.parse.FindCallback;
 import com.parse.GetCallback;
 import com.parse.LogInCallback;
 import com.parse.Parse;
@@ -25,8 +26,10 @@ import com.parse.ParseObject;
 import com.parse.ParseQuery;
 import com.parse.ParseUser;
 import com.parse.SaveCallback;
+import com.parse.SignUpCallback;
 
 import java.util.HashMap;
+import java.util.List;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -37,60 +40,33 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-  /*      ParseObject score = new ParseObject("Score");
-        score.put("username", "Nick");
-        score.put("score", 45);
-        score.saveInBackground(new SaveCallback() {
+       /* ParseUser user = new ParseUser();
+
+        user.setUsername("nick");
+        user.setPassword("dupa");
+
+        user.signUpInBackground(new SignUpCallback() {
             @Override
             public void done(ParseException e) {
-                if (e == null){
-                    Log.i("Success","Score was saved");
-                }
-                else{
+                if (e == null) {
+                    Log.i("ok", "Success");
+
+                } else {
                     e.printStackTrace();
                 }
             }
         });*/
-/*
-        ParseQuery<ParseObject> query = ParseQuery.getQuery("Score");
-query.getInBackground("TMt6x02kOc", new GetCallback<ParseObject>() {
-    @Override
-    public void done(ParseObject object, ParseException e) {
-        if(e == null && object != null){
 
-
-
-            Log.i("username",object.getString("username"));
-            Log.i("score",Integer.toString(object.getInt("score")));
-        }
-    }
-});
-*/
-
-        ParseObject tweet = new ParseObject("Tweet");
-        tweet.put("username", "Ken");
-        tweet.saveInBackground(new SaveCallback() {
+        ParseUser.logInInBackground("nick", "dup", new LogInCallback() {
             @Override
-            public void done(ParseException e) {
-                if (e == null) {
-                    Log.i("success", "Successfully added tweet");
-
+            public void done(ParseUser user, ParseException e) {
+                if (user != null) {
+                    Log.i("Success", "We logged in");
+                } else {
+                    e.printStackTrace();
                 }
             }
         });
-
-ParseQuery<ParseObject> query = ParseQuery.getQuery("Tweet");
-query.getInBackground("7qMOJDnxq7", new GetCallback<ParseObject>() {
-    @Override
-    public void done(ParseObject object, ParseException e) {
-        if(e == null && object != null){
-            Log.i("username",object.getString("username"));
-            object.put("username","Dupa");
-            object.saveInBackground();
-            Log.i("username",object.getString("username"));
-        }
-    }
-});
 
         ParseAnalytics.trackAppOpenedInBackground(getIntent());
     }

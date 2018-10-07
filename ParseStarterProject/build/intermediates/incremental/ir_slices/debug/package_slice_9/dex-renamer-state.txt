@@ -1,4 +1,4 @@
-#Tue Sep 25 23:39:17 CEST 2018
-base.0=E\:\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\transforms\\dexMerger\\debug\\10
+#Sun Oct 07 16:08:26 CEST 2018
+base.0=I\:\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\transforms\\dexMerger\\debug\\10
 path.0=classes.dex
 renamed.0=classes.dex

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Local Disk E_9282018222\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "I:\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Krzysztof\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-tagmanager-12.0.1.aar\\4502b1d1fd20452958542e4e8d0e62b1\\res\\values\\values.xml",
@@ -18,6 +18,25 @@
                         "startOffsets": "68731,68801,68885",
                         "endColumns": "69,83,67",
                         "endOffsets": "68796,68880,68948"
+                    }
+                },
+                {
+                    "source": "I:\\Parse-Server-Starter-Project\\ParseStarterProject\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "11",
+                        "startColumns": "4",
+                        "startOffsets": "369",
+                        "endLines": "13",
+                        "endColumns": "12",
+                        "endOffsets": "494"
+                    },
+                    "to": {
+                        "startLines": "919",
+                        "startColumns": "4",
+                        "startOffsets": "69586",
+                        "endLines": "921",
+                        "endColumns": "12",
+                        "endOffsets": "69711"
                     }
                 },
                 {
@@ -254,7 +273,7 @@
                     }
                 },
                 {
-                    "source": "D:\\Local Disk E_9282018222\\Parse-Server-Starter-Project\\ParseStarterProject\\src\\main\\res\\values\\dimens.xml",
+                    "source": "I:\\Parse-Server-Starter-Project\\ParseStarterProject\\src\\main\\res\\values\\dimens.xml",
                     "from": {
                         "startLines": "10,11",
                         "startColumns": "4,4",
@@ -285,6 +304,23 @@
                         "startOffsets": "57614,62537,62644,62753,62825",
                         "endColumns": "49,106,108,71,67",
                         "endOffsets": "57659,62639,62748,62820,62888"
+                    }
+                },
+                {
+                    "source": "I:\\Parse-Server-Starter-Project\\ParseStarterProject\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "15,12,14,9,10,17,16",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "605,492,552,369,430,711,658",
+                        "endColumns": "52,58,52,60,60,62,52",
+                        "endOffsets": "653,546,600,425,486,769,706"
+                    },
+                    "to": {
+                        "startLines": "810,811,873,895,896,911,912",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "61002,61055,66549,67990,68051,68953,69016",
+                        "endColumns": "52,58,52,60,60,62,52",
+                        "endOffsets": "61050,61109,66597,68046,68107,69011,69064"
                     }
                 },
                 {
@@ -321,42 +357,6 @@
                         "startOffsets": "66467",
                         "endColumns": "81",
                         "endOffsets": "66544"
-                    }
-                },
-                {
-                    "source": "D:\\Local Disk E_9282018222\\Parse-Server-Starter-Project\\ParseStarterProject\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "15,12,14,9,10,17,16",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "605,492,552,369,430,711,658",
-                        "endColumns": "52,58,52,60,60,62,52",
-                        "endOffsets": "653,546,600,425,486,769,706"
-                    },
-                    "to": {
-                        "startLines": "810,811,873,895,896,911,912",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "61002,61055,66549,67990,68051,68953,69016",
-                        "endColumns": "52,58,52,60,60,62,52",
-                        "endOffsets": "61050,61109,66597,68046,68107,69011,69064"
-                    }
-                },
-                {
-                    "source": "D:\\Local Disk E_9282018222\\Parse-Server-Starter-Project\\ParseStarterProject\\src\\main\\res\\values\\styles.xml",
-                    "from": {
-                        "startLines": "11",
-                        "startColumns": "4",
-                        "startOffsets": "369",
-                        "endLines": "13",
-                        "endColumns": "12",
-                        "endOffsets": "494"
-                    },
-                    "to": {
-                        "startLines": "919",
-                        "startColumns": "4",
-                        "startOffsets": "69586",
-                        "endLines": "921",
-                        "endColumns": "12",
-                        "endOffsets": "69711"
                     }
                 },
                 {
