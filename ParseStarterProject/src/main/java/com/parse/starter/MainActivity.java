@@ -35,18 +35,25 @@ import com.parse.ParseUser;
 import com.parse.SaveCallback;
 import com.parse.SignUpCallback;
 
+import java.io.Serializable;
 import java.util.HashMap;
 import java.util.List;
 
 
-public class MainActivity extends AppCompatActivity implements View.OnKeyListener, View.OnClickListener {
+public class MainActivity extends AppCompatActivity implements View.OnKeyListener, View.OnClickListener, Serializable {
 
     LoginOrSingUp currentText = LoginOrSingUp.LOGIN;
     private EditText username;
     private EditText password;
     private TextView loginOrSignUp;
     private Button loginButton;
-    private ImageView instagramLogo;
+
+    public void showUserList() {
+        Intent intent = new Intent(getApplicationContext(), UserListActivity.class);
+        startActivity(intent);
+
+    }
+
 
 
     @Override
@@ -55,14 +62,18 @@ public class MainActivity extends AppCompatActivity implements View.OnKeyListene
         setContentView(R.layout.activity_main);
         loginButton = findViewById(R.id.loginButton);
         loginOrSignUp = findViewById(R.id.loginOrSignUpText);
-        instagramLogo = findViewById(R.id.instImage);
+        ImageView instagramLogo = findViewById(R.id.instImage);
+        View backgroundImage = findViewById(R.id.layoutMain);
         username = findViewById(R.id.login);
         password = findViewById(R.id.password);
         password.setOnKeyListener(this);
         loginOrSignUp.setOnClickListener(this);
         instagramLogo.setOnClickListener(this);
+        backgroundImage.setOnClickListener(this);
 
-
+        if (ParseUser.getCurrentUser() != null) {
+            showUserList();
+        }
 
        /* ParseUser user = new ParseUser();
 
@@ -85,6 +96,7 @@ public class MainActivity extends AppCompatActivity implements View.OnKeyListene
         ParseAnalytics.trackAppOpenedInBackground(getIntent());
     }
 
+
     @Override
     public boolean onKey(View v, int keyCode, KeyEvent event) {
         if (keyCode == KeyEvent.KEYCODE_ENTER && event.getAction() == KeyEvent.ACTION_DOWN) {
@@ -100,14 +112,12 @@ public class MainActivity extends AppCompatActivity implements View.OnKeyListene
         if (!username.getText().toString().isEmpty() && !password.getText().toString().isEmpty() && currentText == LoginOrSingUp.LOGIN) {
 
 
-            ParseUser.logInInBackground(username.getText().toString(), password.getText().toString(), new LogInCallback() {
-                @Override
-                public void done(ParseUser user, ParseException e) {
-                    if (user != null) {
-                        Toast.makeText(getApplicationContext(), "Successfully logged in", Toast.LENGTH_LONG).show();
-                    } else {
-                        Toast.makeText(getApplicationContext(), "You entered bad credentials", Toast.LENGTH_LONG).show();
-                    }
+            ParseUser.logInInBackground(username.getText().toString(), password.getText().toString(), (user, e) -> {
+                if (user != null) {
+                    Toast.makeText(getApplicationContext(), "Successfully logged in", Toast.LENGTH_LONG).show();
+                    showUserList();
+                } else {
+                    Toast.makeText(getApplicationContext(), "You entered bad credentials", Toast.LENGTH_LONG).show();
                 }
             });
 
@@ -146,8 +156,9 @@ public class MainActivity extends AppCompatActivity implements View.OnKeyListene
                 loginButton.setText(R.string.loginText);
                 currentText = LoginOrSingUp.LOGIN;
             }
-        }else if(v.getId() == R.id.instImage || v.getId() == R.id.layoutMain){
+        } else if (v.getId() == R.id.instImage || v.getId() == R.id.layoutMain) {
             InputMethodManager inputMethodManager = (InputMethodManager) getSystemService(INPUT_METHOD_SERVICE);
+            inputMethodManager.hideSoftInputFromWindow(getCurrentFocus().getWindowToken(), 0);
         }
     }
 
