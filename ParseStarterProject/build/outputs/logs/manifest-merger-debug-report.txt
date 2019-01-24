@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from I:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:9:1-35:12
-INJECTED from I:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:9:1-35:12
-INJECTED from I:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:9:1-35:12
-INJECTED from I:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:9:1-35:12
+ADDED from I:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:9:1-36:12
+INJECTED from I:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:9:1-36:12
+INJECTED from I:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:9:1-36:12
+INJECTED from I:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:9:1-36:12
 MERGED from [com.google.android.gms:play-services:12.0.1] C:\Users\Krzysztof\.gradle\caches\transforms-1\files-1.1\play-services-12.0.1.aar\04b25a471cdf76adcd23aacec597e5e4\AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\Krzysztof\.gradle\caches\transforms-1\files-1.1\play-services-cast-framework-12.0.1.aar\f5ac981aef0f6f940733a295c20605fa\AndroidManifest.xml:2:1-14:12
 MERGED from [com.google.android.gms:play-services-cast:12.0.1] C:\Users\Krzysztof\.gradle\caches\transforms-1\files-1.1\play-services-cast-12.0.1.aar\c8d9e10106037a5cbab6b884b8b6944b\AndroidManifest.xml:17:1-24:12
@@ -123,20 +123,20 @@ MERGED from [com.google.android.gms:play-services-wallet-license:12.0.1] C:\User
 MERGED from [com.google.android.gms:play-services-wearable-license:12.0.1] C:\Users\Krzysztof\.gradle\caches\transforms-1\files-1.1\play-services-wearable-license-12.0.1.aar\7e5799dd87c3986b333bc2c35e4fe287\AndroidManifest.xml:17:1-24:12
 MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Krzysztof\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\fa9720033aea2cfc64eb9f0380497486\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Krzysztof\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\0bcc96ad676331e6f6e66282f08cb624\AndroidManifest.xml:17:1-22:12
-INJECTED from I:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:9:1-35:12
-INJECTED from I:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:9:1-35:12
-INJECTED from I:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:9:1-35:12
+INJECTED from I:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:9:1-36:12
+INJECTED from I:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:9:1-36:12
+INJECTED from I:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:9:1-36:12
 	package
 		ADDED from I:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:10:5-32
 		INJECTED from I:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml
 		INJECTED from I:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from I:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml
-		ADDED from I:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:9:1-35:12
+		ADDED from I:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:9:1-36:12
 		INJECTED from I:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from I:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml
-		ADDED from I:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:9:1-35:12
+		ADDED from I:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:9:1-36:12
 		INJECTED from I:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from I:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:9:11-69
@@ -199,7 +199,7 @@ ADDED from I:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidM
 	android:name
 		ADDED from I:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:15:22-76
 application
-ADDED from I:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:17:5-33:19
+ADDED from I:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:17:5-34:19
 MERGED from [com.google.android.gms:play-services:12.0.1] C:\Users\Krzysztof\.gradle\caches\transforms-1\files-1.1\play-services-12.0.1.aar\04b25a471cdf76adcd23aacec597e5e4\AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services:12.0.1] C:\Users\Krzysztof\.gradle\caches\transforms-1\files-1.1\play-services-12.0.1.aar\04b25a471cdf76adcd23aacec597e5e4\AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\Krzysztof\.gradle\caches\transforms-1\files-1.1\play-services-cast-framework-12.0.1.aar\f5ac981aef0f6f940733a295c20605fa\AndroidManifest.xml:7:5-12:19
@@ -421,9 +421,13 @@ ADDED from I:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidM
 	android:name
 		ADDED from I:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:29:27-74
 activity#com.parse.starter.UserListActivity
-ADDED from I:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:32:9-63
+ADDED from I:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:32:9-54
 	android:name
 		ADDED from I:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:32:19-51
+activity#com.parse.starter.UserFeedActivity
+ADDED from I:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:33:9-63
+	android:name
+		ADDED from I:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml:33:19-51
 uses-sdk
 INJECTED from I:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from I:\Parse-Server-Starter-Project\ParseStarterProject\src\main\AndroidManifest.xml
